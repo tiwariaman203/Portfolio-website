@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.sidebar{
+    background-color: rgb(56, 54, 54);
+    color: white;
+    position: absolute;
+    /* width: 434px; */
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    transition: tranform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    background-color: rgb(62, 57, 57);
+    width: 100vw;
+    color: white;
+}
+.intro{
+    width: 70%;
+    margin: auto;
+}
